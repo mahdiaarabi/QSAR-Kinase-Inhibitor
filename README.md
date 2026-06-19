@@ -13,9 +13,9 @@
 This project develops QSAR (Quantitative Structure–Activity Relationship) models to predict key physicochemical and ADMET properties of kinase inhibitor drug candidates. The workflow demonstrates a complete cheminformatics pipeline from molecular representation through descriptor generation, model training, and interpretability analysis.
 
 ### Target Properties
-- **pIC50** — Binding potency against kinase targets
-- **logP** — Lipophilicity (critical for oral bioavailability)
-- **logS** — Aqueous solubility (critical for formulation)
+- **pIC50** - Binding potency against kinase targets
+- **logP** - Lipophilicity (critical for oral bioavailability)
+- **logS** - Aqueous solubility (critical for formulation)
 
 ### Kinase Targets Covered
 EGFR, JAK2, BCR-ABL, VEGFR, ALK, BRAF, MEK, CDK4/6
@@ -27,8 +27,8 @@ EGFR, JAK2, BCR-ABL, VEGFR, ALK, BRAF, MEK, CDK4/6
 - **Physicochemical Descriptors:** 12 RDKit-computed 2D descriptors (MW, LogP, TPSA, HBA, HBD, RotBonds, AromaticRings, FractionCSP3, etc.)
 
 ### Machine Learning Models
-- **Random Forest Regressor** — 500 trees, robust baseline
-- **Gradient Boosting Regressor** — 500 estimators, learning rate 0.05
+- **Random Forest Regressor** - 500 trees, robust baseline
+- **Gradient Boosting Regressor** - 500 estimators, learning rate 0.05
 
 ### Evaluation
 - 5-fold cross-validation on training set
@@ -76,7 +76,7 @@ jupyter notebook QSAR_Kinase_Inhibitors.ipynb
 
 ## Key Results
 
-The combined ECFP4 + physicochemical descriptor representation provides robust predictive performance across all three target properties. Gradient Boosting consistently achieves slightly higher accuracy than Random Forest, consistent with published QSAR benchmarks. Feature importance analysis reveals molecular weight, TPSA, and LogP as the most informative physicochemical descriptors — aligning with known ADMET structure–property relationships.
+The combined ECFP4 + physicochemical descriptor representation provides robust predictive performance across all three target properties. Gradient Boosting consistently achieves slightly higher accuracy than Random Forest, consistent with published QSAR benchmarks. Feature importance analysis reveals molecular weight, TPSA, and LogP as the most informative physicochemical descriptors, aligning with known ADMET structure–property relationships.
 
 ## Dataset
 
@@ -91,10 +91,7 @@ The dataset contains 30 FDA-approved kinase inhibitors with experimentally deriv
 
 ## Author
 
-**Mahdi (Matt) Aarabi, Ph.D.**  
+**Mahdi Aarabi, Ph.D.**  
 Computational Scientist | Widener University  
 [LinkedIn](https://www.linkedin.com/in/mahdi--aarabi/)
 
-## Related Work
-
-See also: [On-the-Fly Crystal](https://github.com/YOUR_USERNAME/On-the-Fly-Crystal) — Automated PES construction framework for transition metal complexes.
