@@ -92,6 +92,5 @@ The dataset contains 30 FDA-approved kinase inhibitors with experimentally deriv
 ## Author
 
 **Mahdi Aarabi, Ph.D.**  
-Computational Scientist | Widener University  
-[LinkedIn](https://www.linkedin.com/in/mahdi--aarabi/)
+Computational Scientist
 
